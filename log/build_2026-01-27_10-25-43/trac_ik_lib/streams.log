@@ -1,0 +1,88 @@
+[0.015s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_lib
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.404s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.527s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.624s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Looking for pthread.h
+[0.714s] -- Looking for pthread.h - found
+[0.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.767s] -- Found Threads: TRUE  
+[0.800s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.808s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.821s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.822s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.822s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.828s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.862s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.863s] -- Checking for module 'eigen3'
+[0.876s] --   Found eigen3, version 3.4.0
+[0.904s] -- Checking for module 'nlopt'
+[0.916s] --   Found nlopt, version 2.7.1
+[0.981s] -- Configuring done
+[0.986s] -- Generating done
+[0.988s] -- Build files have been written to: /home/robotics/robo_ws/build/trac_ik_lib
+[0.994s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_lib
+[0.994s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[1.036s] [ 50%] [32mBuilding CXX object CMakeFiles/trac_ik.dir/src/nlopt_ik.cpp.o[0m
+[1.036s] [ 75%] [32mBuilding CXX object CMakeFiles/trac_ik.dir/src/trac_ik.cpp.o[0m
+[1.037s] [ 75%] [32mBuilding CXX object CMakeFiles/trac_ik.dir/src/kdl_tl.cpp.o[0m
+[5.159s] [100%] [32m[1mLinking CXX shared library libtrac_ik.so[0m
+[5.305s] [100%] Built target trac_ik
+[5.313s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[5.314s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib
+[5.319s] -- Install configuration: ""
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik/trac_ik.hpp
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik/math3d.h
+[5.319s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/include/trac_ik/dual_quaternion.h
+[5.320s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/lib/libtrac_ik.so
+[5.321s] -- Set runtime path of "/home/robotics/robo_ws/install/trac_ik_lib/lib/libtrac_ik.so" to ""
+[5.321s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh
+[5.321s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash
+[5.322s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh
+[5.323s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh
+[5.323s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv
+[5.323s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv
+[5.323s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_libraries-extras.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake
+[5.324s] -- Installing: /home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.xml
+[5.326s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib

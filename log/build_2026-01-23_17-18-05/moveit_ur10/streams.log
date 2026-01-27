@@ -1,0 +1,43 @@
+[0.003s] Invoking command in '/home/robotics/robo_ws/build/moveit_ur10': CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/moveit_py:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/rebar_control:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/moveit_ur10 -- -j24 -l24
+[0.032s] Invoked command in '/home/robotics/robo_ws/build/moveit_ur10' returned '0': CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/moveit_py:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/rebar_control:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/moveit_ur10 -- -j24 -l24
+[0.033s] Invoking command in '/home/robotics/robo_ws/build/moveit_ur10': CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/moveit_py:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/rebar_control:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/moveit_ur10
+[0.036s] -- Install configuration: ""
+[0.036s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/ament_index/resource_index/package_run_dependencies/moveit_ur10
+[0.036s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/ament_index/resource_index/parent_prefix_path/moveit_ur10
+[0.036s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/environment/ament_prefix_path.sh
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/environment/ament_prefix_path.dsv
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/environment/path.sh
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/environment/path.dsv
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/local_setup.bash
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/local_setup.sh
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/local_setup.zsh
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/local_setup.dsv
+[0.037s] -- Installing: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.dsv
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/ament_index/resource_index/packages/moveit_ur10
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/cmake/moveit_ur10Config.cmake
+[0.037s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/cmake/moveit_ur10Config-version.cmake
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.xml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/warehouse_db.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/spawn_controllers.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/static_virtual_joint_tfs.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/demo.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/rsp.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/chumma.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/setup_assistant.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/move_group.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/launch/moveit_rviz.launch.py
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/moveit_controllers.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/moveit.rviz
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/ur10e_robot.urdf.xacro
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/ur10e_robot.ros2_control.xacro
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/pilz_cartesian_limits.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/joint_limits.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/initial_positions.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/ur10e_robot.srdf
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/sensors_3d.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/ros2_controllers.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/config/kinematics.yaml
+[0.038s] -- Up-to-date: /home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/.setup_assistant
+[0.040s] Invoked command in '/home/robotics/robo_ws/build/moveit_ur10' returned '0': CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/moveit_py:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/rebar_control:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/moveit_ur10

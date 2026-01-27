@@ -1,0 +1,8 @@
+source;share/trac_ik/hook/cmake_prefix_path.ps1
+source;share/trac_ik/hook/cmake_prefix_path.dsv
+source;share/trac_ik/hook/cmake_prefix_path.sh
+source;share/trac_ik/local_setup.bash
+source;share/trac_ik/local_setup.dsv
+source;share/trac_ik/local_setup.ps1
+source;share/trac_ik/local_setup.sh
+source;share/trac_ik/local_setup.zsh

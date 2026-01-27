@@ -1,0 +1,44 @@
+[0.024s] Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.146s] Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.153s] Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.162s] -- Install configuration: ""
+[0.173s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/launch
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/launch/display.launch.py
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/base.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/forearm.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/upperarm.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist1.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist2.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist3.dae
+[0.175s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/shoulder.dae
+[0.176s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision
+[0.176s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/shoulder.stl
+[0.176s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist1.stl
+[0.176s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/upperarm.stl
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/forearm.stl
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist3.stl
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/base.stl
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist2.stl
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/urdf
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/urdf/ur10e.urdf
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/rviz
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/rviz/urdf.rviz
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/package_run_dependencies/ur10e_description
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/parent_prefix_path/ur10e_description
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/ament_prefix_path.sh
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/ament_prefix_path.dsv
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/path.sh
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/path.dsv
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.bash
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.sh
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.zsh
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.dsv
+[0.177s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/packages/ur10e_description
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/cmake/ur10e_descriptionConfig.cmake
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/cmake/ur10e_descriptionConfig-version.cmake
+[0.177s] -- Up-to-date: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.xml
+[0.178s] Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description

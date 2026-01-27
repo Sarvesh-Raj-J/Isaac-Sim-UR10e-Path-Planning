@@ -1,0 +1,24 @@
+[0.296s] Invoking command in '/home/robotics/robo_ws/src/rebar_control': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data
+[0.415s] running egg_info
+[0.416s] writing ../../build/rebar_control/rebar_control.egg-info/PKG-INFO
+[0.416s] writing dependency_links to ../../build/rebar_control/rebar_control.egg-info/dependency_links.txt
+[0.416s] writing entry points to ../../build/rebar_control/rebar_control.egg-info/entry_points.txt
+[0.416s] writing requirements to ../../build/rebar_control/rebar_control.egg-info/requires.txt
+[0.416s] writing top-level names to ../../build/rebar_control/rebar_control.egg-info/top_level.txt
+[0.417s] reading manifest file '../../build/rebar_control/rebar_control.egg-info/SOURCES.txt'
+[0.417s] writing manifest file '../../build/rebar_control/rebar_control.egg-info/SOURCES.txt'
+[0.417s] running build
+[0.417s] running build_py
+[0.417s] copying rebar_control/rebar_mover_py.py -> /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control
+[0.417s] running install
+[0.417s] running install_lib
+[0.417s] copying /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control/rebar_mover_py.py -> /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control
+[0.418s] byte-compiling /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control/rebar_mover_py.py to rebar_mover_py.cpython-310.pyc
+[0.419s] running install_data
+[0.419s] running install_egg_info
+[0.420s] removing '/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.420s] Copying ../../build/rebar_control/rebar_control.egg-info to /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control-0.0.0-py3.10.egg-info
+[0.421s] running install_scripts
+[0.431s] Installing rebar_mover script to /home/robotics/robo_ws/install/rebar_control/lib/rebar_control
+[0.431s] writing list of installed files to '/home/robotics/robo_ws/build/rebar_control/install.log'
+[0.443s] Invoked command in '/home/robotics/robo_ws/src/rebar_control' returned '0': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data

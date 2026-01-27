@@ -1,0 +1,88 @@
+[0.009s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.065s] -- The CXX compiler identification is GNU 11.4.0
+[0.069s] -- Detecting C compiler ABI info
+[0.105s] -- Detecting C compiler ABI info - done
+[0.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.109s] -- Detecting C compile features
+[0.110s] -- Detecting C compile features - done
+[0.111s] -- Detecting CXX compiler ABI info
+[0.152s] -- Detecting CXX compiler ABI info - done
+[0.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.156s] -- Detecting CXX compile features
+[0.156s] -- Detecting CXX compile features - done
+[0.157s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.274s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.299s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.335s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.399s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Looking for pthread.h
+[0.464s] -- Looking for pthread.h - found
+[0.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.511s] -- Found Threads: TRUE  
+[0.535s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.551s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.572s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.577s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.588s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.641s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.672s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.672s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.780s] -- Found trac_ik_lib: 2.0.2 (/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/cmake)
+[0.818s] -- Configuring done
+[0.830s] -- Generating done
+[0.833s] -- Build files have been written to: /home/robotics/robo_ws/build/trac_ik_kinematics_plugin
+[0.841s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin
+[0.842s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[0.872s] [ 25%] Running `/opt/ros/humble/bin/generate_parameter_library_cpp /home/robotics/robo_ws/build/trac_ik_kinematics_plugin/include/trac_ik_kinematics_plugin/trac_ik_kinematics_parameters.hpp /home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin/src/trac_ik_kinematics_parameters.yaml `
+[0.956s] [ 50%] Creating deprecated header file /home/robotics/robo_ws/build/trac_ik_kinematics_plugin/include/trac_ik_kinematics_parameters.hpp
+[0.965s] [ 50%] Built target trac_ik_kinematics_parameters
+[0.977s] [ 75%] Building CXX object CMakeFiles/trac_ik_kinematics_plugin.dir/src/trac_ik_kinematics_plugin.cpp.o
+[3.890s] [100%] Linking CXX shared library libtrac_ik_kinematics_plugin.so
+[4.055s] [100%] Built target trac_ik_kinematics_plugin
+[4.061s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[4.067s] Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_kinematics_plugin
+[4.073s] -- Install configuration: ""
+[4.073s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/include/trac_ik_kinematics_plugin
+[4.073s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/include/trac_ik_kinematics_plugin/trac_ik_kinematics_parameters.hpp
+[4.073s] -- Up-to-date: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/include
+[4.073s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/include/trac_ik
+[4.073s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/include/trac_ik/trac_ik_kinematics_plugin.hpp
+[4.074s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/trac_ik_kinematics_description.xml
+[4.074s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/libtrac_ik_kinematics_plugin.so
+[4.077s] -- Set runtime path of "/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/libtrac_ik_kinematics_plugin.so" to ""
+[4.077s] -- Up-to-date: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/trac_ik_kinematics_description.xml
+[4.077s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/library_path.sh
+[4.077s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/library_path.dsv
+[4.077s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/package_run_dependencies/trac_ik_kinematics_plugin
+[4.077s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/parent_prefix_path/trac_ik_kinematics_plugin
+[4.077s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/ament_prefix_path.sh
+[4.078s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/ament_prefix_path.dsv
+[4.078s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/path.sh
+[4.078s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/path.dsv
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.bash
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.sh
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.zsh
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.dsv
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/packages/trac_ik_kinematics_plugin
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/moveit_core__pluginlib__plugin/trac_ik_kinematics_plugin
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/export_trac_ik_kinematics_pluginExport.cmake
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/export_trac_ik_kinematics_pluginExport-noconfig.cmake
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.079s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[4.080s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[4.080s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.080s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/trac_ik_kinematics_pluginConfig.cmake
+[4.080s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/trac_ik_kinematics_pluginConfig-version.cmake
+[4.080s] -- Installing: /home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.xml
+[4.081s] Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_kinematics_plugin

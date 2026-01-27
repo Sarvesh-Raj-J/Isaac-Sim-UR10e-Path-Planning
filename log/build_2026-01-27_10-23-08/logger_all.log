@@ -1,0 +1,458 @@
+[0.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.050s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7baf5715e830>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7baf5715e2f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7baf5715e2f0>>)
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.118s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotics/robo_ws'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_ur10' with type 'ros.ament_cmake' and name 'moveit_ur10'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rebar_control' with type 'ros.ament_python' and name 'rebar_control'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_kinematics_plugin' with type 'ros.ament_cmake' and name 'trac_ik_kinematics_plugin'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_description' with type 'ros.ament_cmake' and name 'ur10e_description'
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/robo_ws/install/moveit_ur10' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/robo_ws/install/ur10e_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/robo_ws/install/rebar_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_runtime' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_planners' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_control_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_simple_controller_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_assistant' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_core_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_app_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_setup_framework' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_servo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_visualization' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_hybrid_planning' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_planning_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_benchmarks' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_warehouse' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_perception' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_move_group' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_planners_ompl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_planning' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_planners_chomp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_kinematics' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robotics/ws_moveit2/install/chomp_motion_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/robo_ws/install/moveit_ur10' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/robo_ws/install/ur10e_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_runtime' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_planners' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_control_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_simple_controller_manager' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_assistant' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_core_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_app_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_setup_framework' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_servo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_visualization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_py' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_hybrid_planning' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_planning_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_benchmarks' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_warehouse' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_perception' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_move_group' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_planners_ompl' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_planning' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_planners_chomp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_kinematics' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robotics/ws_moveit2/install/chomp_motion_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/robotics/moveit_ws/install
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/robotics/robo_ws/install
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robotics/ros2_ws/install
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/robotics/ws_moveit2/install
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'rebar_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/rebar_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/rebar_control', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/rebar_control', 'symlink_install': False, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik_lib', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'ur10e_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/ur10e_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/ur10e_description', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/ur10e_description', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_kinematics_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_ur10' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/moveit_ur10', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/moveit_ur10', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/moveit_ur10', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik', 'symlink_install': False, 'test_result_base': None}
+[0.179s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib'
+[0.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/ur10e_description' with build type 'ament_cmake'
+[0.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/ur10e_description'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.188s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotics/robo_ws/src/rebar_control' with build type 'ament_python'
+[0.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('rebar_control', 'ament_prefix_path')
+[0.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.ps1'
+[0.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.sh'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_lib
+[0.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/ur10e_description -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/ur10e_description
+[0.327s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotics/robo_ws/src/rebar_control'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/src/rebar_control': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/ur10e_description -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/ur10e_description
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/src/rebar_control' returned '0': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control' for CMake module files
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib/pkgconfig/rebar_control.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('rebar_control', 'pythonpath')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.sh'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/bin'
+[0.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rebar_control)
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.bash'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/rebar_control/share/colcon-core/packages/rebar_control)
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur10e_description)
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake module files
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake config files
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur10e_description', 'cmake_prefix_path')
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.ps1'
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.dsv'
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.sh'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/pkgconfig/ur10e_description.pc'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/python3.10/site-packages'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.sh'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.bash'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.zsh'
+[0.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/ur10e_description/share/colcon-core/packages/ur10e_description)
+[0.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur10e_description)
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake module files
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake config files
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur10e_description', 'cmake_prefix_path')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.sh'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/pkgconfig/ur10e_description.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/python3.10/site-packages'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.sh'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.bash'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.zsh'
+[0.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/ur10e_description/share/colcon-core/packages/ur10e_description)
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_lib
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[5.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[5.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib
+[5.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[5.503s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake module files
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake config files
+[5.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[5.505s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib'
+[5.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/python3.10/site-packages'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[5.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[5.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[5.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake module files
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake config files
+[5.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[5.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib'
+[5.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[5.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/python3.10/site-packages'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[5.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[5.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[5.512s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin' with build type 'ament_cmake'
+[5.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin'
+[5.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/robotics/moveit_ws/install/moveit_runtime:/home/robotics/moveit_ws/install/moveit:/home/robotics/moveit_ws/install/moveit_planners:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner:/home/robotics/moveit_ws/install/moveit_ros_control_interface:/home/robotics/moveit_ws/install/moveit_plugins:/home/robotics/moveit_ws/install/moveit_simple_controller_manager:/home/robotics/moveit_ws/install/moveit_setup_assistant:/home/robotics/moveit_ws/install/moveit_setup_srdf_plugins:/home/robotics/moveit_ws/install/moveit_setup_core_plugins:/home/robotics/moveit_ws/install/moveit_setup_controllers:/home/robotics/moveit_ws/install/moveit_setup_app_plugins:/home/robotics/moveit_ws/install/moveit_setup_framework:/home/robotics/moveit_ws/install/moveit_servo:/home/robotics/moveit_ws/install/moveit_ros:/home/robotics/moveit_ws/install/moveit_ros_visualization:/home/robotics/moveit_ws/install/moveit_py:/home/robotics/moveit_ws/install/moveit_hybrid_planning:/home/robotics/moveit_ws/install/moveit_ros_planning_interface:/home/robotics/moveit_ws/install/moveit_ros_benchmarks:/home/robotics/moveit_ws/install/moveit_ros_warehouse:/home/robotics/moveit_ws/install/moveit_ros_robot_interaction:/home/robotics/moveit_ws/install/moveit_ros_perception:/home/robotics/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/robotics/moveit_ws/install/moveit_ros_move_group:/home/robotics/moveit_ws/install/moveit_planners_ompl:/home/robotics/moveit_ws/install/moveit_ros_planning:/home/robotics/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/robotics/moveit_ws/install/moveit_resources_prbt_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/moveit_ws/install/moveit_planners_chomp:/home/robotics/moveit_ws/install/moveit_kinematics:/home/robotics/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/robotics/moveit_ws/install/chomp_motion_planner:/home/robotics/moveit_ws/install/moveit_core:/home/robotics/moveit_ws/install/moveit_common:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robotics/ws_moveit2/install/moveit_runtime:/home/robotics/ws_moveit2/install/moveit:/home/robotics/ws_moveit2/install/moveit_planners:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner:/home/robotics/ws_moveit2/install/moveit_ros_control_interface:/home/robotics/ws_moveit2/install/moveit_plugins:/home/robotics/ws_moveit2/install/moveit_simple_controller_manager:/home/robotics/ws_moveit2/install/moveit_setup_assistant:/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robotics/ws_moveit2/install/moveit_setup_core_plugins:/home/robotics/ws_moveit2/install/moveit_setup_controllers:/home/robotics/ws_moveit2/install/moveit_setup_app_plugins:/home/robotics/ws_moveit2/install/moveit_setup_framework:/home/robotics/ws_moveit2/install/moveit_servo:/home/robotics/ws_moveit2/install/moveit_ros:/home/robotics/ws_moveit2/install/moveit_ros_visualization:/home/robotics/ws_moveit2/install/moveit_py:/home/robotics/ws_moveit2/install/moveit_hybrid_planning:/home/robotics/ws_moveit2/install/moveit_ros_planning_interface:/home/robotics/ws_moveit2/install/moveit_ros_benchmarks:/home/robotics/ws_moveit2/install/moveit_ros_warehouse:/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction:/home/robotics/ws_moveit2/install/moveit_ros_perception:/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robotics/ws_moveit2/install/moveit_ros_move_group:/home/robotics/ws_moveit2/install/moveit_planners_ompl:/home/robotics/ws_moveit2/install/moveit_ros_planning:/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robotics/ws_moveit2/install/moveit_resources_prbt_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/ws_moveit2/install/moveit_planners_chomp:/home/robotics/ws_moveit2/install/moveit_kinematics:/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robotics/ws_moveit2/install/chomp_motion_planner:/home/robotics/ws_moveit2/install/moveit_core:/home/robotics/ws_moveit2/install/moveit_common:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin
+[6.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/robotics/moveit_ws/install/moveit_runtime:/home/robotics/moveit_ws/install/moveit:/home/robotics/moveit_ws/install/moveit_planners:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner:/home/robotics/moveit_ws/install/moveit_ros_control_interface:/home/robotics/moveit_ws/install/moveit_plugins:/home/robotics/moveit_ws/install/moveit_simple_controller_manager:/home/robotics/moveit_ws/install/moveit_setup_assistant:/home/robotics/moveit_ws/install/moveit_setup_srdf_plugins:/home/robotics/moveit_ws/install/moveit_setup_core_plugins:/home/robotics/moveit_ws/install/moveit_setup_controllers:/home/robotics/moveit_ws/install/moveit_setup_app_plugins:/home/robotics/moveit_ws/install/moveit_setup_framework:/home/robotics/moveit_ws/install/moveit_servo:/home/robotics/moveit_ws/install/moveit_ros:/home/robotics/moveit_ws/install/moveit_ros_visualization:/home/robotics/moveit_ws/install/moveit_py:/home/robotics/moveit_ws/install/moveit_hybrid_planning:/home/robotics/moveit_ws/install/moveit_ros_planning_interface:/home/robotics/moveit_ws/install/moveit_ros_benchmarks:/home/robotics/moveit_ws/install/moveit_ros_warehouse:/home/robotics/moveit_ws/install/moveit_ros_robot_interaction:/home/robotics/moveit_ws/install/moveit_ros_perception:/home/robotics/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/robotics/moveit_ws/install/moveit_ros_move_group:/home/robotics/moveit_ws/install/moveit_planners_ompl:/home/robotics/moveit_ws/install/moveit_ros_planning:/home/robotics/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/robotics/moveit_ws/install/moveit_resources_prbt_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/moveit_ws/install/moveit_planners_chomp:/home/robotics/moveit_ws/install/moveit_kinematics:/home/robotics/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/robotics/moveit_ws/install/chomp_motion_planner:/home/robotics/moveit_ws/install/moveit_core:/home/robotics/moveit_ws/install/moveit_common:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robotics/ws_moveit2/install/moveit_runtime:/home/robotics/ws_moveit2/install/moveit:/home/robotics/ws_moveit2/install/moveit_planners:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner:/home/robotics/ws_moveit2/install/moveit_ros_control_interface:/home/robotics/ws_moveit2/install/moveit_plugins:/home/robotics/ws_moveit2/install/moveit_simple_controller_manager:/home/robotics/ws_moveit2/install/moveit_setup_assistant:/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robotics/ws_moveit2/install/moveit_setup_core_plugins:/home/robotics/ws_moveit2/install/moveit_setup_controllers:/home/robotics/ws_moveit2/install/moveit_setup_app_plugins:/home/robotics/ws_moveit2/install/moveit_setup_framework:/home/robotics/ws_moveit2/install/moveit_servo:/home/robotics/ws_moveit2/install/moveit_ros:/home/robotics/ws_moveit2/install/moveit_ros_visualization:/home/robotics/ws_moveit2/install/moveit_py:/home/robotics/ws_moveit2/install/moveit_hybrid_planning:/home/robotics/ws_moveit2/install/moveit_ros_planning_interface:/home/robotics/ws_moveit2/install/moveit_ros_benchmarks:/home/robotics/ws_moveit2/install/moveit_ros_warehouse:/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction:/home/robotics/ws_moveit2/install/moveit_ros_perception:/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robotics/ws_moveit2/install/moveit_ros_move_group:/home/robotics/ws_moveit2/install/moveit_planners_ompl:/home/robotics/ws_moveit2/install/moveit_ros_planning:/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robotics/ws_moveit2/install/moveit_resources_prbt_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/ws_moveit2/install/moveit_planners_chomp:/home/robotics/ws_moveit2/install/moveit_kinematics:/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robotics/ws_moveit2/install/chomp_motion_planner:/home/robotics/ws_moveit2/install/moveit_core:/home/robotics/ws_moveit2/install/moveit_common:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin
+[6.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/robotics/moveit_ws/install/moveit_runtime:/home/robotics/moveit_ws/install/moveit:/home/robotics/moveit_ws/install/moveit_planners:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner:/home/robotics/moveit_ws/install/moveit_ros_control_interface:/home/robotics/moveit_ws/install/moveit_plugins:/home/robotics/moveit_ws/install/moveit_simple_controller_manager:/home/robotics/moveit_ws/install/moveit_setup_assistant:/home/robotics/moveit_ws/install/moveit_setup_srdf_plugins:/home/robotics/moveit_ws/install/moveit_setup_core_plugins:/home/robotics/moveit_ws/install/moveit_setup_controllers:/home/robotics/moveit_ws/install/moveit_setup_app_plugins:/home/robotics/moveit_ws/install/moveit_setup_framework:/home/robotics/moveit_ws/install/moveit_servo:/home/robotics/moveit_ws/install/moveit_ros:/home/robotics/moveit_ws/install/moveit_ros_visualization:/home/robotics/moveit_ws/install/moveit_py:/home/robotics/moveit_ws/install/moveit_hybrid_planning:/home/robotics/moveit_ws/install/moveit_ros_planning_interface:/home/robotics/moveit_ws/install/moveit_ros_benchmarks:/home/robotics/moveit_ws/install/moveit_ros_warehouse:/home/robotics/moveit_ws/install/moveit_ros_robot_interaction:/home/robotics/moveit_ws/install/moveit_ros_perception:/home/robotics/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/robotics/moveit_ws/install/moveit_ros_move_group:/home/robotics/moveit_ws/install/moveit_planners_ompl:/home/robotics/moveit_ws/install/moveit_ros_planning:/home/robotics/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/robotics/moveit_ws/install/moveit_resources_prbt_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/moveit_ws/install/moveit_planners_chomp:/home/robotics/moveit_ws/install/moveit_kinematics:/home/robotics/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/robotics/moveit_ws/install/chomp_motion_planner:/home/robotics/moveit_ws/install/moveit_core:/home/robotics/moveit_ws/install/moveit_common:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robotics/ws_moveit2/install/moveit_runtime:/home/robotics/ws_moveit2/install/moveit:/home/robotics/ws_moveit2/install/moveit_planners:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner:/home/robotics/ws_moveit2/install/moveit_ros_control_interface:/home/robotics/ws_moveit2/install/moveit_plugins:/home/robotics/ws_moveit2/install/moveit_simple_controller_manager:/home/robotics/ws_moveit2/install/moveit_setup_assistant:/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robotics/ws_moveit2/install/moveit_setup_core_plugins:/home/robotics/ws_moveit2/install/moveit_setup_controllers:/home/robotics/ws_moveit2/install/moveit_setup_app_plugins:/home/robotics/ws_moveit2/install/moveit_setup_framework:/home/robotics/ws_moveit2/install/moveit_servo:/home/robotics/ws_moveit2/install/moveit_ros:/home/robotics/ws_moveit2/install/moveit_ros_visualization:/home/robotics/ws_moveit2/install/moveit_py:/home/robotics/ws_moveit2/install/moveit_hybrid_planning:/home/robotics/ws_moveit2/install/moveit_ros_planning_interface:/home/robotics/ws_moveit2/install/moveit_ros_benchmarks:/home/robotics/ws_moveit2/install/moveit_ros_warehouse:/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction:/home/robotics/ws_moveit2/install/moveit_ros_perception:/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robotics/ws_moveit2/install/moveit_ros_move_group:/home/robotics/ws_moveit2/install/moveit_planners_ompl:/home/robotics/ws_moveit2/install/moveit_ros_planning:/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robotics/ws_moveit2/install/moveit_resources_prbt_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/ws_moveit2/install/moveit_planners_chomp:/home/robotics/ws_moveit2/install/moveit_kinematics:/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robotics/ws_moveit2/install/chomp_motion_planner:/home/robotics/ws_moveit2/install/moveit_core:/home/robotics/ws_moveit2/install/moveit_common:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[7.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '2': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/robotics/moveit_ws/install/moveit_runtime:/home/robotics/moveit_ws/install/moveit:/home/robotics/moveit_ws/install/moveit_planners:/home/robotics/moveit_ws/install/pilz_industrial_motion_planner:/home/robotics/moveit_ws/install/moveit_ros_control_interface:/home/robotics/moveit_ws/install/moveit_plugins:/home/robotics/moveit_ws/install/moveit_simple_controller_manager:/home/robotics/moveit_ws/install/moveit_setup_assistant:/home/robotics/moveit_ws/install/moveit_setup_srdf_plugins:/home/robotics/moveit_ws/install/moveit_setup_core_plugins:/home/robotics/moveit_ws/install/moveit_setup_controllers:/home/robotics/moveit_ws/install/moveit_setup_app_plugins:/home/robotics/moveit_ws/install/moveit_setup_framework:/home/robotics/moveit_ws/install/moveit_servo:/home/robotics/moveit_ws/install/moveit_ros:/home/robotics/moveit_ws/install/moveit_ros_visualization:/home/robotics/moveit_ws/install/moveit_py:/home/robotics/moveit_ws/install/moveit_hybrid_planning:/home/robotics/moveit_ws/install/moveit_ros_planning_interface:/home/robotics/moveit_ws/install/moveit_ros_benchmarks:/home/robotics/moveit_ws/install/moveit_ros_warehouse:/home/robotics/moveit_ws/install/moveit_ros_robot_interaction:/home/robotics/moveit_ws/install/moveit_ros_perception:/home/robotics/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/robotics/moveit_ws/install/moveit_ros_move_group:/home/robotics/moveit_ws/install/moveit_planners_ompl:/home/robotics/moveit_ws/install/moveit_ros_planning:/home/robotics/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/robotics/moveit_ws/install/moveit_resources_prbt_support:/home/robotics/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/moveit_ws/install/moveit_planners_chomp:/home/robotics/moveit_ws/install/moveit_kinematics:/home/robotics/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/robotics/moveit_ws/install/chomp_motion_planner:/home/robotics/moveit_ws/install/moveit_core:/home/robotics/moveit_ws/install/moveit_common:/home/robotics/robo_ws/install/moveit_ur10:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/robotics/ws_moveit2/install/moveit_runtime:/home/robotics/ws_moveit2/install/moveit:/home/robotics/ws_moveit2/install/moveit_planners:/home/robotics/ws_moveit2/install/pilz_industrial_motion_planner:/home/robotics/ws_moveit2/install/moveit_ros_control_interface:/home/robotics/ws_moveit2/install/moveit_plugins:/home/robotics/ws_moveit2/install/moveit_simple_controller_manager:/home/robotics/ws_moveit2/install/moveit_setup_assistant:/home/robotics/ws_moveit2/install/moveit_setup_srdf_plugins:/home/robotics/ws_moveit2/install/moveit_setup_core_plugins:/home/robotics/ws_moveit2/install/moveit_setup_controllers:/home/robotics/ws_moveit2/install/moveit_setup_app_plugins:/home/robotics/ws_moveit2/install/moveit_setup_framework:/home/robotics/ws_moveit2/install/moveit_servo:/home/robotics/ws_moveit2/install/moveit_ros:/home/robotics/ws_moveit2/install/moveit_ros_visualization:/home/robotics/ws_moveit2/install/moveit_py:/home/robotics/ws_moveit2/install/moveit_hybrid_planning:/home/robotics/ws_moveit2/install/moveit_ros_planning_interface:/home/robotics/ws_moveit2/install/moveit_ros_benchmarks:/home/robotics/ws_moveit2/install/moveit_ros_warehouse:/home/robotics/ws_moveit2/install/moveit_ros_robot_interaction:/home/robotics/ws_moveit2/install/moveit_ros_perception:/home/robotics/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/robotics/ws_moveit2/install/moveit_ros_move_group:/home/robotics/ws_moveit2/install/moveit_planners_ompl:/home/robotics/ws_moveit2/install/moveit_ros_planning:/home/robotics/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robotics/ws_moveit2/install/moveit_resources_prbt_support:/home/robotics/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/robotics/ws_moveit2/install/moveit_planners_chomp:/home/robotics/ws_moveit2/install/moveit_kinematics:/home/robotics/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/robotics/ws_moveit2/install/chomp_motion_planner:/home/robotics/ws_moveit2/install/moveit_core:/home/robotics/ws_moveit2/install/moveit_common:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[7.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_kinematics_plugin)
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake module files
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake config files
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/pkgconfig/trac_ik_kinematics_plugin.pc'
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/python3.10/site-packages'
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[7.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.ps1'
+[7.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv'
+[7.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.sh'
+[7.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.bash'
+[7.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.zsh'
+[7.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/colcon-core/packages/trac_ik_kinematics_plugin)
+[7.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.154s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.169s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.ps1'
+[7.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics/robo_ws/install/_local_setup_util_ps1.py'
+[7.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.ps1'
+[7.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.sh'
+[7.176s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics/robo_ws/install/_local_setup_util_sh.py'
+[7.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.sh'
+[7.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.bash'
+[7.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.bash'
+[7.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.zsh'
+[7.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.zsh'

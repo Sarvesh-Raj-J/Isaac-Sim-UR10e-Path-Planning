@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/rebar_control/rebar_control.egg-info
+writing ../../build/rebar_control/rebar_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/rebar_control/rebar_control.egg-info/dependency_links.txt
+writing entry points to ../../build/rebar_control/rebar_control.egg-info/entry_points.txt
+writing requirements to ../../build/rebar_control/rebar_control.egg-info/requires.txt
+writing top-level names to ../../build/rebar_control/rebar_control.egg-info/top_level.txt
+writing manifest file '../../build/rebar_control/rebar_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/rebar_control/rebar_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/rebar_control/rebar_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robotics/robo_ws/build/rebar_control/build
+creating /home/robotics/robo_ws/build/rebar_control/build/lib
+creating /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control
+copying rebar_control/rebar_mover_py.py -> /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control
+copying rebar_control/__init__.py -> /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control
+running install
+running install_lib
+creating /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control
+copying /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control/rebar_mover_py.py -> /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control
+copying /home/robotics/robo_ws/build/rebar_control/build/lib/rebar_control/__init__.py -> /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control
+byte-compiling /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control/rebar_mover_py.py to rebar_mover_py.cpython-310.pyc
+byte-compiling /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robotics/robo_ws/install/rebar_control/share/ament_index
+creating /home/robotics/robo_ws/install/rebar_control/share/ament_index/resource_index
+creating /home/robotics/robo_ws/install/rebar_control/share/ament_index/resource_index/packages
+copying resource/rebar_control -> /home/robotics/robo_ws/install/rebar_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotics/robo_ws/install/rebar_control/share/rebar_control
+creating /home/robotics/robo_ws/install/rebar_control/share/rebar_control/launch
+copying launch/rebar.launch.py -> /home/robotics/robo_ws/install/rebar_control/share/rebar_control/launch
+running install_egg_info
+Copying ../../build/rebar_control/rebar_control.egg-info to /home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages/rebar_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rebar_mover script to /home/robotics/robo_ws/install/rebar_control/lib/rebar_control
+writing list of installed files to '/home/robotics/robo_ws/build/rebar_control/install.log'

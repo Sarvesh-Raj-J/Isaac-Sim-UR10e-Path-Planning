@@ -1,0 +1,3 @@
+[console_scripts]
+rebar_mover = rebar_control.rebar_mover_py:main
+

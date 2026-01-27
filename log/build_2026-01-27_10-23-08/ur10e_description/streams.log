@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/ur10e_description -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/ur10e_description
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.211s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Configuring done
+[0.412s] -- Generating done
+[0.413s] -- Build files have been written to: /home/robotics/robo_ws/build/ur10e_description
+[0.417s] Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/robotics/robo_ws/src/ur10e_description -DCMAKE_INSTALL_PREFIX=/home/robotics/robo_ws/install/ur10e_description
+[0.418s] Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.454s] Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.463s] Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.469s] -- Install configuration: ""
+[0.470s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/launch
+[0.470s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/launch/display.launch.py
+[0.472s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes
+[0.472s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e
+[0.472s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual
+[0.472s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/base.dae
+[0.473s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/forearm.dae
+[0.475s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/upperarm.dae
+[0.476s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist1.dae
+[0.478s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist2.dae
+[0.480s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/wrist3.dae
+[0.480s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/visual/shoulder.dae
+[0.482s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision
+[0.482s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/shoulder.stl
+[0.483s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist1.stl
+[0.483s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/upperarm.stl
+[0.483s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/forearm.stl
+[0.483s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist3.stl
+[0.484s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/base.stl
+[0.484s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/meshes/ur10e/collision/wrist2.stl
+[0.484s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/urdf
+[0.485s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/urdf/ur10e.urdf
+[0.485s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/rviz
+[0.485s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/rviz/urdf.rviz
+[0.486s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/package_run_dependencies/ur10e_description
+[0.486s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/parent_prefix_path/ur10e_description
+[0.486s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/ament_prefix_path.sh
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/ament_prefix_path.dsv
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/path.sh
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/environment/path.dsv
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.bash
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.sh
+[0.487s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.zsh
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/local_setup.dsv
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ament_index/resource_index/packages/ur10e_description
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/cmake/ur10e_descriptionConfig.cmake
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/cmake/ur10e_descriptionConfig-version.cmake
+[0.488s] -- Installing: /home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.xml
+[0.491s] Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/moveit_ws/install/moveit_configs_utils:/home/robotics/robo_ws/install/rebar_control:/home/robotics/ros2_ws/install/rebar_control:/home/robotics/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description

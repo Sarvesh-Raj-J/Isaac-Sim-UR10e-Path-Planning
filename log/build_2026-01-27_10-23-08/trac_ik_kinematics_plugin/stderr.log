@@ -1,0 +1,8 @@
+In file included from [01m[K/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin/src/trac_ik_kinematics_plugin.cpp:38[m[K:
+[01m[K/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin/include/trac_ik/trac_ik_kinematics_plugin.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/kinematics_base/kinematics_base.hpp: No such file or directory
+   34 | #include [01;31m[K<moveit/kinematics_base/kinematics_base.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trac_ik_kinematics_plugin.dir/build.make:76: CMakeFiles/trac_ik_kinematics_plugin.dir/src/trac_ik_kinematics_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/trac_ik_kinematics_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

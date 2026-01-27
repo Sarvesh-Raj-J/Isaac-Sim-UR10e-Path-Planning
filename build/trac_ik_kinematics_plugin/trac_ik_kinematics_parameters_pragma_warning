@@ -1,0 +1,1 @@
+#pragma message("#include \"trac_ik_kinematics_parameters.hpp\" is deprecated. Use #include <trac_ik_kinematics_plugin/trac_ik_kinematics_parameters.hpp> instead.")

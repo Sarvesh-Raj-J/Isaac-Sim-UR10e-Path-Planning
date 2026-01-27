@@ -1,0 +1,490 @@
+[0.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x778cbf65d2d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778cbf65cd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778cbf65cd90>>)
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.121s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotics/robo_ws'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_ur10) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_ur10' with type 'ros.ament_cmake' and name 'moveit_ur10'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rebar_control) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rebar_control' with type 'ros.ament_python' and name 'rebar_control'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['python_setup_py']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_kinematics_plugin' with type 'ros.ament_cmake' and name 'trac_ik_kinematics_plugin'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_description) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_description' with type 'ros.ament_cmake' and name 'ur10e_description'
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rebar_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'rebar_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/rebar_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/rebar_control', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/rebar_control', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik_lib', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'ur10e_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'ur10e_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/ur10e_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/ur10e_description', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/ur10e_description', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_kinematics_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'moveit_ur10' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_ur10' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/moveit_ur10', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/moveit_ur10', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/moveit_ur10', 'symlink_install': False, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics/robo_ws/build/trac_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics/robo_ws/install/trac_ik', 'merge_install': False, 'path': '/home/robotics/robo_ws/src/trac_ik/trac_ik', 'symlink_install': False, 'test_result_base': None}
+[0.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib' with build type 'ament_cmake'
+[0.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_lib'
+[0.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/ur10e_description' with build type 'ament_cmake'
+[0.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/ur10e_description'
+[0.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.178s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotics/robo_ws/src/rebar_control' with build type 'ament_python'
+[0.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('rebar_control', 'ament_prefix_path')
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.ps1'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.dsv'
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/ament_prefix_path.sh'
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotics/robo_ws/src/rebar_control'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_lib -- -j24 -l24
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/robo_ws/build/ur10e_description -- -j24 -l24
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/ur10e_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake module files
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake config files
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib'
+[0.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_lib
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake module files
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib' for CMake config files
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_lib/bin'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/trac_ik/trac_ik_kinematics_plugin'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur10e_description)
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake module files
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake config files
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/ur10e_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/robo_ws/build/ur10e_description
+[0.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur10e_description', 'cmake_prefix_path')
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.sh'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/pkgconfig/ur10e_description.pc'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/python3.10/site-packages'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.sh'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.bash'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.zsh'
+[0.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/ur10e_description/share/colcon-core/packages/ur10e_description)
+[0.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur10e_description)
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake module files
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description' for CMake config files
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur10e_description', 'cmake_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/hook/cmake_prefix_path.sh'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/pkgconfig/ur10e_description.pc'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/lib/python3.10/site-packages'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/ur10e_description/bin'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.bash'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/ur10e_description/share/ur10e_description/package.zsh'
+[0.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/ur10e_description/share/colcon-core/packages/ur10e_description)
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik_kinematics_plugin -- -j24 -l24
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_kinematics_plugin
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_kinematics_plugin)
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake module files
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik_kinematics_plugin
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake config files
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'cmake_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'ld_library_path_lib')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.sh'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/pkgconfig/trac_ik_kinematics_plugin.pc'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/python3.10/site-packages'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.zsh'
+[0.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/colcon-core/packages/trac_ik_kinematics_plugin)
+[0.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_kinematics_plugin)
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake module files
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin' for CMake config files
+[0.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'cmake_prefix_path')
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.sh'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib'
+[0.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'ld_library_path_lib')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.sh'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/pkgconfig/trac_ik_kinematics_plugin.pc'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib/python3.10/site-packages'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/bin'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.sh'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.bash'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.zsh'
+[0.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/share/colcon-core/packages/trac_ik_kinematics_plugin)
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/moveit_ur10' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/moveit_ur10'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics/robo_ws/src/trac_ik/trac_ik' with build type 'ament_cmake'
+[0.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics/robo_ws/src/trac_ik/trac_ik'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/moveit_ur10': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/moveit_ur10 -- -j24 -l24
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik -- -j24 -l24
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/moveit_ur10' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/moveit_ur10 -- -j24 -l24
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/moveit_ur10': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/moveit_ur10
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robotics/robo_ws/build/trac_ik -- -j24 -l24
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/build/trac_ik': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik
+[0.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_ur10)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10' for CMake module files
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/moveit_ur10' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/ur10e_description:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/moveit_ur10
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ur10', 'cmake_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.sh'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/bin'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/lib/pkgconfig/moveit_ur10.pc'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/lib/python3.10/site-packages'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/bin'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.sh'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.bash'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.zsh'
+[0.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/moveit_ur10/share/colcon-core/packages/moveit_ur10)
+[0.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_ur10)
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10' for CMake module files
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10' for CMake config files
+[0.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_ur10', 'cmake_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/hook/cmake_prefix_path.sh'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/bin'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/lib/pkgconfig/moveit_ur10.pc'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/lib/python3.10/site-packages'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/moveit_ur10/bin'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.bash'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/moveit_ur10/share/moveit_ur10/package.zsh'
+[0.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/moveit_ur10/share/colcon-core/packages/moveit_ur10)
+[0.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik' for CMake module files
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik' for CMake config files
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin:/home/robotics/robo_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics/robo_ws/install/trac_ik_kinematics_plugin/lib:/home/robotics/robo_ws/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robotics/robo_ws/build/trac_ik
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/bin'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/lib/python3.10/site-packages'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/bin'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.bash'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.zsh'
+[0.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik/share/colcon-core/packages/trac_ik)
+[0.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik' for CMake module files
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik' for CMake config files
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/bin'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/lib/python3.10/site-packages'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/trac_ik/bin'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.bash'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/trac_ik/share/trac_ik/package.zsh'
+[0.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/trac_ik/share/colcon-core/packages/trac_ik)
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics/robo_ws/src/rebar_control': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control' for CMake config files
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib/pkgconfig/rebar_control.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages'
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics/robo_ws/src/rebar_control' returned '0': PYTHONPATH=/home/robotics/robo_ws/build/rebar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/robo_ws/install/rebar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rebar_control build --build-base /home/robotics/robo_ws/build/rebar_control/build install --record /home/robotics/robo_ws/build/rebar_control/install.log --single-version-externally-managed install_data
+[0.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('rebar_control', 'pythonpath')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/hook/pythonpath.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/robotics/robo_ws/install/rebar_control/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rebar_control)
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics/robo_ws/install/rebar_control/share/rebar_control/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics/robo_ws/install/rebar_control/share/colcon-core/packages/rebar_control)
+[0.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.643s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.654s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.ps1'
+[0.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics/robo_ws/install/_local_setup_util_ps1.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.sh'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics/robo_ws/install/_local_setup_util_sh.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics/robo_ws/install/local_setup.zsh'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics/robo_ws/install/setup.zsh'
