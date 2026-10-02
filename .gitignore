@@ -1,0 +1,16 @@
+# ROS 2 generated artifacts
+/build/
+/install/
+/log/
+
+# Local archives and editor state
+*.zip
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Isaac Sim and local runtime output
+*.usd.bak
+*.tmp

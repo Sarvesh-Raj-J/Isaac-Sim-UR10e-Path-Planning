@@ -18,14 +18,23 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <depend>rclcpp</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <exec_depend>rclpy</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>moveit_kinematics</exec_depend>
   <exec_depend>trac_ik_kinematics_plugin</exec_depend>
   <exec_depend>moveit_planners</exec_depend>
   <exec_depend>moveit_simple_controller_manager</exec_depend>
   <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>joint_state_publisher_gui</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_geometry</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
   <exec_depend>xacro</exec_depend>
   <!-- The next 2 packages are required for the gazebo simulation.
        We don't include them by default to prevent installing gazebo and all its dependencies. -->

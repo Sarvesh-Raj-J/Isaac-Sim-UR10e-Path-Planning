@@ -13,6 +13,24 @@ Visualization Manager:
     - Class: rviz_default_plugins/Grid
       Name: Grid
       Value: true
+    - Class: rviz_default_plugins/Camera
+      Name: Isaac Sim Camera
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /sim_camera/image_raw
+      Value: true
+    - Class: rviz_default_plugins/Image
+      Name: Debug Camera View
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /camera/image_raw
+      Value: true
     - Class: moveit_rviz_plugin/MotionPlanning
       Name: MotionPlanning
       Planned Path:

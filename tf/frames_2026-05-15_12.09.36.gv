@@ -1,0 +1,19 @@
+digraph G {
+"upper_arm_link" -> "forearm_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"shoulder_link" -> "upper_arm_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"base_link_inertia" -> "shoulder_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"base_link" -> "base_link_inertia"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"forearm_link" -> "wrist_1_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"wrist_1_link" -> "wrist_2_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"wrist_2_link" -> "wrist_3_link"[label=" Broadcaster: default_authority\nAverage rate: 21.111\nBuffer length: 0.9\nMost recent transform: 1481.000077\nOldest transform: 1480.100077\n"];
+"base_link" -> "base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"tool0" -> "sim_camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"flange" -> "tool0"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"wrist_3_link" -> "flange"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"tool0" -> "end_effector"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"flange" -> "ZED_X"[label=" Broadcaster: default_authority\nAverage rate: 61.667\nBuffer length: 0.6\nMost recent transform: 1481.033411\nOldest transform: 1480.433411\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1778827176.045413"[ shape=plaintext ] ;
+}->"base_link";
+}
