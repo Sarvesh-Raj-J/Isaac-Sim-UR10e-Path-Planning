@@ -1,0 +1,11 @@
+This repository contains original work by Sarvesh-Raj-J
+and third-party components.
+
+Original application code:
+Copyright 2026 Sarvesh-Raj-J
+Licensed under the Apache License, Version 2.0.
+
+Third-party components retain their original licenses and copyright notices.
+In particular, MoveIt 2, TRAC-IK, ROS 2 packages, and generated MoveIt
+configuration files may be distributed under separate license terms.
+Review the license files in each component before redistribution.
