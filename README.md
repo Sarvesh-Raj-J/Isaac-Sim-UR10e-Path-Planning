@@ -160,7 +160,12 @@ approximately horizontal and vertical image lines and a known planar target.
 
 ## License
 
-The application package retains the BSD license metadata from its generated
-MoveIt configuration. Review and add a repository-level license before
-redistributing the complete workspace, including third-party MoveIt 2 and
-TRAC-IK source trees.
+Original application code in this repository is licensed under the
+[Apache License 2.0](./LICENSE).
+
+Copyright 2026 Sarvesh-Raj-J.
+
+This workspace also contains generated configuration and third-party
+components, including MoveIt 2 and TRAC-IK. Those components retain their
+respective original licenses and copyright notices. Review the license files
+within each component before redistributing the complete workspace.
